@@ -1,4 +1,4 @@
-const knex = require("knex");
+const knex = require("../db/connection");
 const reduceProperties = require("../utils/reduce-properties");
 
 //using the reduceProperties function to create the correct output.
